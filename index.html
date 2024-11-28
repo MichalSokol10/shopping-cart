@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Nákupní košík</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html"
+          ><img src="/images/shoppingCart.png" alt="" height="70px"
+        /></a>
+        <ul>
+          <li><a href=""></a></li>
+          <li><a href=".product-list">Seznam produktů</a></li>
+          <li><a href=".adding-product">Přidání produktu</a></li>
+          <li><a href=".shopping-cart">Nákupní košík</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <a href="#top" id="back-top"
+        ><img src="/images/arrow.png" alt="" height="50"
+      /></a>
+      <div class="product-list">
+        <h1>Seznam produktů</h1>
+      </div>
+      <div id="product-container"></div>
+      <div class="clearfix"></div>
+      <div class="adding-product">
+        <h1>Přidání produktu</h1>
+      </div>
+      <div class="adding-container">
+        <form action="" class="product-form">
+          <input
+            type="text"
+            name="product-name"
+            id="product-name"
+            placeholder="Název"
+            required
+          />
+          <select name="category" id="category">
+            <option value="Burgery">Burgery</option>
+            <option value="Přílohy">Přílohy</option>
+            <option value="Nápoje">Nápoje</option>
+          </select>
+
+          <input
+            type="number"
+            name="price"
+            id="price"
+            placeholder="Cena"
+            required
+          />
+          <input type="submit" value="Přidat produkt" />
+        </form>
+      </div>
+      <div class="shopping-cart">
+        <h1>Nákupní košík</h1>
+      </div>
+
+      <p id="total-amount">
+        Celková částka: <span id="total-price">0</span>,-
+      </p>
+      <div class="cart-container">
+        <div id="cart-items"></div>
+        <div class="form-container">
+          <form action="" class="form" id="myForm">
+            <input
+              type="text"
+              name="address"
+              id="address"
+              placeholder="Adresa pro doručení"
+              required
+            />
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Jméno a příjmení"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Emailová adresa"
+              required
+            />
+            <input
+              type="tel"
+              name="phone"
+              id="phone"
+              placeholder="Telefonní číslo"
+              required
+            />
+            <label for="shipping-method">Způsob dopravy:</label>
+            <select id="shipping-method" name="shipping-method" required>
+              <option value="deliver-to-address">Doručit na adresu</option>
+              <option value="pick-up">Vyzvednutí na pobočce</option>
+            </select>
+            <label for="payment">Platba:</label>
+            <select id="payment" name="payment" required>
+              <option value="card">Online platební kartou</option>
+              <option value="cash">Hotově</option>
+            </select>
+            <textarea
+              name="note"
+              id="note"
+              cols="30"
+              rows="10"
+              placeholder="Poznámka"
+            ></textarea>
+            <input type="submit" value="Odeslat" />
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="script.js"></script>
+  </body>
+</html>

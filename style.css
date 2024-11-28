@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif !important;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+    background-color: black;
+    height: 120px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-left: 730px;
+}
+
+nav ul li {
+    padding: 15px 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 0.8px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color:darkgoldenrod;
+}
+
+#back-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+    margin: 20px;
+    float: left;
+  }
+
+  th, td {
+    border-bottom: 2px black solid;
+    padding: 8px;
+  }
+
+  th {
+    font-weight: bold;
+  }
+
+  button {
+    padding: 6px 10px;
+    text-align: center;
+  }
+
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  #product-container {
+    text-align: center;
+  }
+  
+  .category-container {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+  }
+
+  h1 {
+    text-transform: uppercase;
+    letter-spacing: .8px;
+    text-align: center;
+    margin: 30px;
+    border-bottom: 1px solid black;
+  }
+
+  h2 {
+    text-transform: uppercase;
+    letter-spacing: .8px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .cart-container {
+    display: flex;
+    justify-content: center;
+    outline: 2px solid black;
+    margin-top: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 24px;
+  }
+
+  .form input[type="text"], .form label, .form input[type="email"], textarea, .form input[type="tel"], .form select, .form input[type="submit"] {
+    background: none;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    border: 2px solid black;
+    padding: 5px 10px;
+    width: 200px;
+    color: black;
+    border-radius: 24px;
+    resize:none;
+  }
+
+  .form input[type="submit"] {
+    font-weight: bold;
+    background-color: black;
+    color:white;
+    display: block;
+  }
+
+  .form input[type="submit"]:hover {
+    color: darkgoldenrod;
+  }
+
+  .form label {
+    color:black;
+    border: none;
+    padding: 0px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+  }
+
+  p {
+    background: none;
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+    margin: 10px auto;
+    border: 2px solid black;
+    padding: 5px 10px;
+    width: 200px;
+    font-weight: bold;
+    background-color: black;
+    color:white;
+    border-radius: 24px;
+  }
+
+  p:hover {
+    color:darkgoldenrod;
+  }
+  
+  .form-container {
+    margin: 0px auto;
+  }
+
+  .product-form input[type="text"], .product-form input[type="number"], .product-form input[type="submit"], .product-form select {
+    background: none;
+    margin: 0px auto;
+    text-align: center;
+    border: 2px solid black;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    color: black;
+    border-radius: 24px;
+  }
+
+  .product-form input[type="submit"] {
+    font-weight: bold;
+    background-color: black;
+    color:white;
+    display: block;
+  }
+
+  .product-form input[type="submit"]:hover {
+    color: darkgoldenrod;
+  }
+
+  .product-form {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .category-container {
+    margin-bottom: 0px;
+  }
+
+  main {
+    height: 1550px;
+  }
+
+
+
+  
+  
+
+  
+
+
+
+  
